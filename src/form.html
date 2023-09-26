@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Reserva</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+
+</head>
+
+<body class="form-page">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Listagem de Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h1>Cadastro de Reserva</h1>
+            <form id="reservation-form">
+                <div class="form-group">
+                    <label for="plate">Placa do veículo</label>
+                    <input type="text" id="plate" placeholder="Id" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="owner-name">Nome do proprietário</label>
+                    <input type="text" id="owner-name" placeholder="Proprietário" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apartment-number">Número do apartamento</label>
+                    <input type="text" id="apartment-number" placeholder="Apartamento" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apartment-block">Bloco do apartamento</label>
+                    <input type="text" id="apartment-block" placeholder="Bloco" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vehicle-model">Modelo do veículo</label>
+                    <input type="text" id="vehicle-model" placeholder="Veículo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vehicle-color">Cor do veículo</label>
+                    <input type="text" id="vehicle-color" placeholder="Cor" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="parking-number">Número da vaga de estacionamento</label>
+                    <input type="text" id="parking-number" placeholder="Número" required>
+                </div>
+
+                <button type="submit" id="submit-button">Salvar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
